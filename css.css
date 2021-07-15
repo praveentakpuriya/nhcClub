@@ -64,10 +64,25 @@ a {
 .content{
     padding: 20px;
     margin-top: 20px;
+	line-height: 2.0;
+	height: fit-content;
+	width: 90%;
 }
 .content1{
     padding: 1px;
     margin: 1px;
+}
+.content-1{
+	font-family:sans-serif;
+	font-weight: bold;
+	text-align: justify;
+	text-decoration-style: double;
+	text-emphasis-color:initial;
+}
+.video{
+	padding-left: 260px;
+	padding-right: 260px;
+	padding-top: 10px;
 }
 .services {
 	padding-top: 50px;
@@ -142,11 +157,20 @@ a {
 .form{
     position: relative;
 	width: 500px;
+	margin-top: initial;
 	margin: 50px auto 100px auto;
+	background-color: lightgray;
     /* background-color: gray; */
 }
 .form1{
+	margin-top: 20px;
     border-color: darkslategray;
     border: 2px;
 
+}
+.form-container{
+	/* position: relative; */
+	height: 200px;
+	width: 100%;
+	background-color: lightcyan;
 }
