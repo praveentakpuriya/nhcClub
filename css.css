@@ -21,6 +21,8 @@
 
 .header_container {
   width: 100%;
+  position: fixed;
+  
   background-color: rgb(26, 26, 26);
   justify-content: space-between;
 }
@@ -56,7 +58,7 @@ a {
 
 }
 .img1{
-    height: 400px;
+    height: 600px;
 	width: 100%;
 	background-color: whitesmoke;
 	background-size: cover;
@@ -92,9 +94,12 @@ a {
 	align-items: center;
 	flex-direction: column;
 	font-family: segoe UI;
+	position: relative;
+	
 }
 
 .services_container {
+	
 	margin-top: 50px;
 	flex-wrap: wrap;
 	justify-content: space-between;
