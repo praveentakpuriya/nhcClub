@@ -3,29 +3,6 @@
   padding: 0px;
 }
 
-.container {
-  width: 90%;
-  display: flex;
-  position: sticky;
-}
-.head-name {
-  height: 90px;
-  width: 30%;
-  font-size: 40px;
-  font-family: segoe UI;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  line-height: 90px;
-}
-
-.header_container {
-  width: 100%;
-  position: fixed;
-
-  background-color: rgb(26, 26, 26);
-  justify-content: space-between;
-}
 
 /* Nav with responsiveness */
 
@@ -136,6 +113,9 @@ nav .menu-btn i{
  
   .video{
     margin-left: -250px;
+  }
+  .ss{
+    width: 100%ll;
   }
 }
 
