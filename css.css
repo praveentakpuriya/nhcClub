@@ -124,14 +124,18 @@ nav .menu-btn i{
 
 /* ??????????????????? */
 
-@media (max-width:700px){
+@media (max-width:768px){
   .img-s{
-    height: 100vh;
+    height: 600px;
     width: 100%;
   }
   .content-1{
     text-decoration: none;
     font-size: 22px;
+  }
+ 
+  .video{
+    margin-left: -250px;
   }
 }
 
@@ -160,17 +164,15 @@ nav .menu-btn i{
   text-decoration-style: double;
   text-emphasis-color: initial;
 }
-.video {
-  padding-left: 260px;
-  padding-right: 260px;
-  padding-top: 10px;
-}
 
-@media (max-width:700px){
-  .v-s{
-    align-items: center;
+@media (min-width:768px){
+  .video {
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-top: 10px;
   }
 }
+
 .services {
   padding-top: 50px;
   padding-bottom: 50px;
