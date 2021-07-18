@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+}
+h2 {
+	text-align: center;
+}
+.grid {
+
+	width: 100%;
+	box-sizing: border-box;
+	/* background-color: black; */
+	float: left;
+}
+.box {
+	width:30%;
+	height: 1200px;
+	border: 1px solid darkblue;
+	float: left;
+	box-sizing: border-box;
+	/* background-color: darkgreen; */
+	/* padding: 0.5em; */
+	/* margin-top: 1em;
+	margin-left: 1em; */
+    
+	margin: 0.5em;
+}
+
+.cont {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+
+.inbox {
+	width: 40%;
+	height: 80%;
+	position: relative;
+	top: 2.5em;
+	margin: 0.5;
+	background: yellow;
+	box-sizing: border-box;
+	padding: 0.5em;
+    
+}
+.inbox-box{
+    background-color: blueviolet;
+    display: flex;
+}
+.contr{
+    height: 1180px; width: 180px; background-color: yellow;padding: 0.5em;
+    display: inline;
+}
+
+.goto{
+	position: sticky;
+	margin-bottom: 5px;
+	float: right;
+	padding: 0.5em;
+	height: 20px;
+	width: 100px;
+	margin: 0.5em;
+	/* /display: inline; */
+	background-color: grey;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .grid {
+
+        width: 100%;
+        box-sizing: border-box;
+        /* background-color: black; */
+        float: left;
+    }
+    .box {
+        width:100%;
+        height: 600px;
+        border: 1px solid darkblue;
+        float: left;
+        box-sizing: border-box;
+        /* background-color: darkgreen; */
+        /* padding: 0.5em; */
+        /* margin-top: 1em;
+        margin-left: 1em; */
+        
+        margin: 0.5em;
+    }
+    
+    .cont {
+        width: 100%;
+        height: 100%;
+        background-color: red;
+    }
+    
+    .inbox {
+        width: 80%;
+        height: 80%;
+        position: relative;
+        top: 2.5em;
+        margin: 0.5;
+        background: yellow;
+        box-sizing: border-box;
+        padding: 0.5em;
+        
+    }
+    .inbox-box{
+        background-color: blueviolet;
+        display: flex;
+    }
+
+
+}

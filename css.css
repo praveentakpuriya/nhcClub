@@ -13,7 +13,9 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
+
 nav{
+  position: fixed;
   height: 80px;
   background:#1b1b1b;
   display: flex;
